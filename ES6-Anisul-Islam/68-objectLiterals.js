@@ -1,4 +1,4 @@
-// Object Literals
+// Object Literals (concise kore ba soto kore)
 
 function studentInfo1 (name, age){
 	return{
