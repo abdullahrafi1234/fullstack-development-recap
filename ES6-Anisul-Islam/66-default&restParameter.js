@@ -16,8 +16,8 @@ sum(20, 30)
 
 // Rest Parameter
 
-function sum1 (x, y, ...z){
+function restParameter (x, y, ...z){
 	console.log(`x = ${x}, y = ${y}, z= ${z}`)
 }
 
-sum1(10, 20, 30 , 40, 50, 60, 70)
+restParameter(10, 20, 30 , 40, 50, 60, 70)
