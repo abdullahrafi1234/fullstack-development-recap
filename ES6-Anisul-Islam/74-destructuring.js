@@ -27,12 +27,23 @@ const studentInfoNested = {
 	fullname: 'rafi-bhuiyan',
 	ids: 2025,
 	cgpa: 3.50,
-	laguage : {
+	language : {
 		native: 'bangla',
 		comfortable : 'english'
 	}
 }
-const {fullname,  ids, laguage} = studentInfoNested
+const {fullname,  ids, language} = studentInfoNested
 
-console.log(id, laguage.native)
+console.log(id, language.native)
 
+// Destructuring function parameters ( parameter er jaygay {} diye destructure kora jay)
+const studentInfos = ({id, fullname}) => {
+	console.log(id, fullname)
+}
+
+const student = {
+	id: 101,
+	fullname: 'Rafi Bhuiyan'
+}
+
+studentInfos(student)
