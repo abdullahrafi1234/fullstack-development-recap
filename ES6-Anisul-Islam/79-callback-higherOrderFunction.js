@@ -49,3 +49,10 @@ taskOne(function f1() {
     });
   });
 });
+
+
+// callback function use in button
+
+document.querySelector('button').addEventListener('click', ()=> {
+	console.log('hi this is callback functions example')
+})
