@@ -59,4 +59,4 @@ const callAllTask2 = async ()=> {
 // callAllTask()
 callAllTask2()
 
-console.log('end')
+console.log('bye')
