@@ -1,4 +1,4 @@
-// cookies (work on 4kb )
+// cookies (work on within 4kb )
 
 document.cookie = 'userName1=rafi1; expires= Tue, 24 Jun 2025 13:05:00 GMT'
 
