@@ -1,5 +1,5 @@
 console.clear()
-console.log(window)
+// console.log(window)
 
 const getData = () => {
 	const xhr = new XMLHttpRequest()
