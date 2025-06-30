@@ -1,4 +1,4 @@
 // add jquery library cdn
-// ajax => asynchronous
+// ajax => asynchronous js and xml
 
 console.log(window)
