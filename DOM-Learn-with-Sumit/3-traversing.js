@@ -14,4 +14,4 @@ let tagName = document.getElementsByTagName('li')
 
 // Query Selector
 let task = document.querySelector('#new-task')
-console.log(task)
+// console.log(task)
