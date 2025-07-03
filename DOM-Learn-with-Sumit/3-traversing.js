@@ -8,6 +8,9 @@
 // }
 
 
+// watch prototype tutorial ===> 
+	// https://www.youtube.com/watch?v=Z45VQuHO_VA
+
 let tagName = document.getElementsByTagName('li')
 // console.log(tagName)
 
