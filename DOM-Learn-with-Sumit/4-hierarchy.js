@@ -16,4 +16,12 @@ const parent2 = children2.parentElement
 // console.log(parent2)
 
 const grandParent2 = children2.closest('.todo-list')
-console.log(grandParent2)
+// console.log(grandParent2)
+
+
+// siblings
+const childrenOne = document.querySelector('.item')
+const childrenTwo = childrenOne.nextElementSibling
+childrenTwo.style.color = 'red'
+console.log(childrenOne)
+console.log(childrenTwo)
