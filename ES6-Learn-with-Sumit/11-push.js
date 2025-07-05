@@ -7,3 +7,4 @@ const result = numbers.push(5, 5, 6, 6)
 console.log(numbers)
 console.log(result)
 
+ 
