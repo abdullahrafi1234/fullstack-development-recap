@@ -43,3 +43,4 @@ for (element of myArray){
 for (element in myArray){
 	console.log(element)
 }
+
