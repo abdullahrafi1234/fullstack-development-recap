@@ -36,11 +36,11 @@ for (property in myObj){
 const myArray = [1, 2, 3, 4, 5]
 
 for (element of myArray){
-	console.log(element)
+	// console.log(element)
 }
 
 // jokhon array te for in use kora hoy tokhn {index} paoa jay
 for (element in myArray){
-	console.log(element)
+	// console.log(element)
 }
 
