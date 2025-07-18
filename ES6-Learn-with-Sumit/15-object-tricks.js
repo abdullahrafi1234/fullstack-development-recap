@@ -9,7 +9,8 @@ var myObj = {
 
 let keys = Object.keys(myObj)
 let values = Object.values(myObj)
-let entries = Object.entries(myObj)
+let entries = Object.entries(myObj)  // both key and values
 
 console.log(keys)
 console.log(values)
+console.log(entries)
