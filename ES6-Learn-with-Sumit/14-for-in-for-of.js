@@ -41,6 +41,6 @@ for (element of myArray){
 
 // jokhon array te for in use kora hoy tokhn {index} paoa jay
 for (element in myArray){
-	// console.log(element)
+	console.log(element)
 }
 
