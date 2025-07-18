@@ -6,3 +6,10 @@ var myObj = {
 	estd: 1995,
 	ranking: 1
 }
+
+let keys = Object.keys(myObj)
+let values = Object.values(myObj)
+let entries = Object.entries(myObj)
+
+console.log(keys)
+console.log(values)
