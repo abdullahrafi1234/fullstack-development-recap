@@ -23,5 +23,5 @@
 	const [a, b] = numbers
 	const [, x, , , y] = numbers
 
-	console.log(a, b)
-	console.log(x,y)
+	// console.log(a, b)
+	// console.log(x,y)
