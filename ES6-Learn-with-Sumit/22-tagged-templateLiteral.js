@@ -10,6 +10,7 @@ function modifier (strings, ...values){
 
 const player1 = 'Sakib';
 const player2 = 'Tamim';
+// const player3 = 'Mash';
 
 console.log(modifier`We have ${player1} and ${player2} in our cricket team.`);
 
