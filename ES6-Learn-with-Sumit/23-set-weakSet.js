@@ -25,4 +25,4 @@ mySet.add(10).add('BD').add('Nepal').delete(5)
 // console.log(mySet.has('Bangladesh'))
 
 console.log(mySet)
-console.log(mySet.size)
+// console.log(mySet.size)
