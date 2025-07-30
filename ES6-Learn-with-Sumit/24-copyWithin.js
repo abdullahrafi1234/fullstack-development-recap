@@ -11,5 +11,5 @@
 
 let a = ['Js', 'PHP', 'Python', 'Ruby', 'C++', 'Rust', 'Express', 'Node']
 
-a.copyWithin(5, 1,3)
+a.copyWithin(5, 1,3)  // target array length theke beshi hoile copy hbena and array length er bahire jaia kisu copy hobena
 console.log(a)
