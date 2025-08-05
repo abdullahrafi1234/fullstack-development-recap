@@ -28,17 +28,17 @@ function getHighestAndLower(arr) {
     }
 
     // if lower variable has bigger number than our current number then value will be our current element
-    else if (lower > arr[i]) {
+    if (lower > arr[i]) {
       lower = arr[i];
     }
   }
 
-//   console.log(lower, higher);
+  //   console.log(lower, higher);
 
   // return our higher variable and lower variable
-  return higher - lower
+  return higher - lower;
 }
 
 // getHighestAndLower([2, 3, -5, -9]);
 const result = getHighestAndLower(temperature);
-console.log(result)
+console.log(result);
